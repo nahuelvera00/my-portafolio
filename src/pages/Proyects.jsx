@@ -40,7 +40,7 @@ const Proyects = () => {
           <div className='flex px-1 justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
             <img className='rounded-md md:w-3/4' src={gestorDePacientes} alt="" />
             <div className='flex gap-2 md:flex-col'>
-              <a target='_blank' href="https://neon-palmier-6c347b.netlify.app/">
+              <a target='_blank' href="https://administrador-de-pacientes-mern.netlify.app/">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-view-360 w-8 md:w-12" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <circle cx="12" cy="12" r="9" />
@@ -66,7 +66,7 @@ const Proyects = () => {
           <div className='flex px-1 justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
             <img className='rounded-md md:w-3/4' src={upTask} alt="" />
             <div className='flex md:flex-col gap-2'>
-              <a target='_blank' href="https://bucolic-moonbeam-d8ce3f.netlify.app/">
+              <a target='_blank' href="https://uptask-gestor-de-proyectos.netlify.app/">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-view-360 w-8 md:w-12" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                   <circle cx="12" cy="12" r="9" />
