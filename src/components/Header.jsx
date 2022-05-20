@@ -18,7 +18,7 @@ const Header = () => {
             >{window.location.pathname === '/about-me' ? <u>Sobre Mi</u> : 'Sobre Mi'}</Link>
             <Link
                 to='/my-learning'
-            >{window.location.pathname === '/my-learning' ? <u>Mi Aprendizaje</u> : 'Mi Aprendizaje'}</Link>
+            >{window.location.pathname === '/my-learning' || window.location.pathname === '/my-learning-2' || window.location.pathname === '/my-learning-3' ? <u>Mi Aprendizaje</u> : 'Mi Aprendizaje'}</Link>
             <Link
                 to='/proyects'
             >{window.location.pathname === '/proyects' ? <u>Mis Proyectos</u> : 'Mis Proyectos'}</Link>

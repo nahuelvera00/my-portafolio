@@ -9,10 +9,9 @@ const Proyects = () => {
     <div className='bg-fondo bg-cover flex w-full h-full justify-center items-end overflow-hidden'>
     <div data-aos="fade-up" data-aos-duration="1500" className='w-full h-[97vh] flex justify-center items-center'>
       <div className='bg-gray-200 shadow rounded-md px-1 py-1 gap-2 md:gap-4 flex flex-col md:items-center w-11/12 md:w-7/12'>
-        <h1 className='flex justify-center font-manrope text-contrast font-semibold md:text-4xl'>Mis Proyectos</h1>
 
         <div className='flex w-full flex-row border-b-[1px] border-gray-300 gap-2 md:gap-5'>
-          <div className='flex justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
+          <div className='flex px-1 justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
             <img className='rounded-md md:w-3/4' src={agenciaViajes} alt="" />
             <div className='flex gap-2 md:flex-col'>
               <a target='_blank' href="https://frozen-tor-93594.herokuapp.com/">
@@ -38,7 +37,7 @@ const Proyects = () => {
         </div>
         
         <div className='flex w-full flex-row border-b-[1px] border-gray-300 gap-2 md:gap-5'>
-          <div className='flex justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
+          <div className='flex px-1 justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
             <img className='rounded-md md:w-3/4' src={gestorDePacientes} alt="" />
             <div className='flex gap-2 md:flex-col'>
               <a target='_blank' href="https://neon-palmier-6c347b.netlify.app/">
@@ -64,7 +63,7 @@ const Proyects = () => {
         </div>
 
         <div className='flex w-full flex-row gap-2 md:gap-5'>
-          <div className='flex justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
+          <div className='flex px-1 justify-center flex-col md:flex-row gap-1 md:gap-4 items-center w-1/3'>
             <img className='rounded-md md:w-3/4' src={upTask} alt="" />
             <div className='flex md:flex-col gap-2'>
               <a target='_blank' href="https://bucolic-moonbeam-d8ce3f.netlify.app/">

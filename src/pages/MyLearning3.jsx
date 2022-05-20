@@ -5,10 +5,10 @@ import css from '../public/css.png'
 import javascript from '../public/javascript.png'
 import react from '../public/react.png'
 
-const MyLearning = () => {
+const MyLearning3 = () => {
   return (
     <div className='bg-fondo bg-cover flex w-full h-full justify-center items-end overflow-hidden'>
-      <div data-aos="fade-up" data-aos-duration="1500" className='w-full h-[97vh] flex justify-center items-center'>
+      <div data-aos="fade-right" data-aos-duration="1500" className='w-full h-[97vh] flex justify-center items-center'>
         <div className='bg-gray-200 shadow rounded-md px-1 py-1 gap-1 md:gap-4 flex flex-col md:items-center w-11/12 md:w-10/12 lg:w-7/12'>
           <div className='flex w-full flex-row border-b-[1px] border-gray-300 gap-2 md:gap-5'>
             <div className='flex justify-center items-center w-1/4'>
@@ -74,4 +74,4 @@ const MyLearning = () => {
   )
 }
 
-export default MyLearning
+export default MyLearning3
